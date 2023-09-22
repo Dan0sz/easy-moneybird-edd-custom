@@ -12,7 +12,19 @@
 defined( 'ABSPATH' ) || exit;
 
 class EDDMoneybirdCustomizations {
+	/**
+	 * Build properties.
+	 */
 	public function __construct() {
+		$this->init();
+	}
+	
+	/**
+	 * Filter/action hooks.
+	 *
+	 * @return void
+	 */
+	private function init() {
 		add_filter( 'edd_moneybird_purchase_sync_payment', [ $this, 'maybe_sync_payment' ], 9, 3 );
 	}
 	
