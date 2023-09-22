@@ -3,7 +3,7 @@
  * Plugin Name: Moneybird for Easy Digital Downloads (Customizations)
  * Plugin URI: https://daan.dev/wordpress/easy-moneybird-edd/
  * Description: Customizations for Moneybird for EDD.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Daan from Daan.dev
  * Author URI: https://daan.dev/about/
  * Text Domain: easy-moneybird-edd
